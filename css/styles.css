@@ -1,0 +1,214 @@
+
+/*Для всіх кнопок щоб долоню показувало на кнопці*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/*Шапка header*/
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.alogo {
+    color: #2e2f42;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studio-footer {
+    color: #f4f4fd;
+}
+
+
+.list {
+    list-style-type: none;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.manu-nav {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+}
+
+.link {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.address-email {
+    color: #434455;
+}
+
+.link:hover,
+.link:focus {
+    color: #404BBF
+}
+
+.top-link {
+    background-color: #FFF;
+    font-style: normal;
+    font-family: normal;
+}
+
+/*Section1*/
+.section-text {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        /* 107.143% */
+        letter-spacing: 0.02em;
+    }
+    
+    .section-one {
+        background-color: #2E2F42;
+    }
+        button {
+            cursor: pointer;
+            font-style: inherit;
+            color: #FFFFFF;
+            background-color: #4D5AE5;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+        }
+    
+        button:hover,
+        button:focus {
+            color: #404BBF;
+            color: #FFFFFF;
+            background-color: #404BBF;
+        }
+/*Section2*/
+.name-text{
+    color:  #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.title-text{
+    color:  #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.section-two {
+    background-color: #FFF;
+}
+ 
+
+
+/*section 3*/
+.section-team{
+    background-color: #F4F4FD;
+}
+.betman{
+    color: #2E2F42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.ipg-team{ background-color: #FFF;
+}
+.mark{ color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.product{
+    color: #434455;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+
+
+/*Section-four*/
+
+ .four-section{ background-color: #FFF; }
+.jpg-photo{ border: #E7E9FC;
+    background-color: #FFF ;}
+.text-portfolio{
+    color:  #2E2F42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.banking{
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing:0.02em;
+}
+.class-p{
+    color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/*Футер низ сторінкі*/
+.page-footer{
+    background-color: #2E2F42;
+}
+.footer-text{
+    color: #F4F4FD;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
