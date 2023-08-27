@@ -1,12 +1,212 @@
+ /*Скидання дляпочатку роботи над розміщенням всього*/
+ h1,h2,h3,h4,h5,p {
+    margin-top: 0;
+    margin-bottom: 0;
+ }
 
-/*Для всіх кнопок щоб долоню показувало на кнопці*/
+ ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+ }
+img{
+    display: block;
+}
+/*Скидання дляпочатку роботи над розміщенням всього*/
+
+
+
+/*  вставляємо в контейнер черз клас container*/
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+/*Шапка header*/
+
+
+   /* Верхні відступи хедера */
+    .page-header-top-botom {
+    padding-top: 24px;
+    padding-bottom: 24px;
+   }
+
+
+ .page-header-container{
+    display: flex;
+ }
+
+ .page-navigation{
+    display: flex;
+    align-items: center;
+ }
+.logo {
+    margin-right: 76px;
+    align-items: center;
+    display: flex;}
+.manu-nav {
+    column-gap: 40px;
+    display: flex;
+}
+.link {
+    padding: 24px 0;}
+
+
+.page-address{
+    margin-left:auto;
+}
+/*Кінець хедера*/
+
+
+.section-text{/*назва задатки*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 496px;
+        height: 120px;
+    
+        
+}
+.section-one{/* секція задатки*/
+      padding-top: 188px;
+      padding-bottom: 292;
+        text-align: center;
+        
+}
+.button{ /*кнопка*/
+    width: auto;
+    height: auto;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border-radius: 4px;
+}
+ 
+ 
+.section-two{/*Секція два*/
+ padding-top: 120px;
+ padding-bottom: 89px;
+}
+ 
+.visualli-hidden{/*Прихований заголовок*/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip:rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+ .information{
+    display: flex;
+    column-gap: 24px;
+ }
+ 
+     
+.magor{ 
+       width: calc((100% - 72px) / 4);}
+     
+.name-text{
+ padding-bottom: 8px;}
+
+    
+
+
+
+
+/*Секція три*/
+.section-team{ padding-top: 120px;
+padding-bottom: 120px;}
+
+.list-photo-team{
+    display: flex;
+    column-gap: 24px;
+}
+
+ .ipg-team{
+    width: calc((100% - 72) / 4);
+ }
+ .mark{
+    padding-top: 32px;
+ }
+.product{
+    padding-bottom: 32px;
+    padding-top: 8px
+}
+
+/*Секція 4*/
+ 
+
+.four-section{ padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+/*Падінг секція*/
+
+/* Ul*/
+.purlist{
+    display: flex;
+     flex-wrap: wrap;
+     column-gap: 24px;
+     row-gap: 48px;   
+}
+/*li */
+.jpg-photo{ width: calc((100% - 48px) / 3);}
+
+ /*h2 тескт портфоліо*/
+.text-portfolio{
+text-align: center;
+margin-bottom: 72px;}
+
+/*div container*/
+.agro{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+
+/*футер*/
+.page-footer{
+padding: 100px 0;
+}
+.footer-content{/* дів Клас контейнер*/
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+}
+    
+.lebs{
+    display: inline-block;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-text{
+    max-width: 264px;
+}
+
+
+
+
+
+/* 2 дз по модулю*/
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
-
-/*Шапка header*/
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -47,7 +247,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-
     letter-spacing: 0.02em;
 }
 
@@ -66,6 +265,7 @@ body {
     color: #434455;
 }
 
+
 .link:hover,
 .link:focus {
     color: #404BBF
@@ -79,17 +279,22 @@ body {
 
 /*Section1*/
 .section-text {
-    color: #FFF;
-        text-align: center;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        /* 107.143% */
-        letter-spacing: 0.02em;
+         text-align: center;
+         color: #FFF;
+         font-size: 56px;
+         font-weight: 700;
+         line-height: 1.07;
+         letter-spacing: 0.02em;
+         
     }
     
     .section-one {
-        background-color: #2E2F42;
+         background-color: #2E2F42;
+         height: 600px;
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
+        
     }
         button {
             cursor: pointer;
@@ -109,7 +314,7 @@ body {
         }
 /*Section2*/
 .name-text{
-    color:  #2E2F42;
+      color:  #2E2F42;
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
