@@ -35,6 +35,9 @@
 
 /*каншагетпай*/
   /*Шапка header*/
+  .page-header-top-botom{
+    border-bottom: 1px solid #e7e9fc;
+  }
 
 
   /* Верхні відступи хедера */
@@ -78,34 +81,35 @@
       /*назва задатки*/
       margin-left: auto;
       margin-right: auto;
-      width: 496px;
-      height: 120px;
-
-
+      max-width: 496px;
+        height: 120px;
   }
 
   .section-one {
       /* секція задатки*/
-      padding-top: 188px;
-      padding-bottom: 292;
+      padding: 188px 0;
       text-align: center;
+     
 
   }
 
   .button {
       /*кнопка*/
-      width: auto;
-      height: auto;
+     display: block;
+     min-width: 169px;
+      height: 56px;
+      margin-left: auto;
+      margin-right: auto;
       padding: 16px 32px;
       margin-top: 48px;
       border-radius: 4px;
   }
 
-
+/*Секція два*/
   .section-two {
       /*Секція два*/
-      padding-top: 120px;
-      padding-bottom: 89px;
+      padding: 120px 0;
+      
   }
 
   .visualli-hidden {
@@ -125,7 +129,7 @@
 
   .information {
       display: flex;
-      column-gap: 24px;
+      gap: 24px;
   }
 
 
@@ -134,7 +138,7 @@
   }
 
   .name-text {
-      padding-bottom: 8px;
+      margin-bottom: 8px;
   }
 
 
@@ -145,35 +149,35 @@
   /*Секція три*/
   .section-team {
       padding-top: 120px;
-      padding-bottom: 120px;
-  }
+      padding-bottom: 120px;}
+  
 
   .list-photo-team {
       display: flex;
-      column-gap: 24px;
-  }
-
+      gap: 24px;}
+  
+ .betman{margin-bottom: 72px;}
   .ipg-team {
       width: calc((100% - 72) / 4);
-  }
-
+    border-radius: 0px 0px 4px 4px; }
+ 
+.teamouar{padding: 32px 0}
   .mark {
-      padding-top: 32px;
-  }
+    text-align: center; margin-bottom: 8px;}
 
   .product {
-      padding-bottom: 32px;
-      padding-top: 8px
-  }
+    text-align: center;}
+     
+  
 
   /*Секція 4*/
 
 
   .four-section {
       padding-top: 120px;
-      padding-bottom: 120px;
+      padding-bottom: 120px;}
 
-  }
+  
 
   /*Падінг секція*/
 
@@ -182,49 +186,49 @@
       display: flex;
       flex-wrap: wrap;
       column-gap: 24px;
-      row-gap: 48px;
-  }
+      row-gap: 48px; }
+ 
 
   /*li */
   .jpg-photo {
-      width: calc((100% - 48px) / 3);
-  }
+    width: calc((100% - 48px) / 3);}
+  
 
   /*h2 тескт портфоліо*/
   .text-portfolio {
       text-align: center;
-      margin-bottom: 72px;
-  }
-
+      margin-bottom: 72px;}
+      
+  
+ .banking{margin-bottom: 8px;}
   /*div container*/
   .agro {
       padding: 32px 16px;
       border: 1px solid #e7e9fc;
-      border-top: none;
-  }
+      border-top: none; }
+ 
 
 
   /*футер*/
   .page-footer {
-      padding: 100px 0;
-  }
+      padding: 100px 0;}
+  
 
   .footer-content {
       /* дів Клас контейнер*/
       display: flex;
       flex-direction: column;
-      margin: 0 auto;
-  }
+      margin: 0 auto;}
+  
 
   .lebs {
       display: inline-block;
-      margin-bottom: 16px;
-      text-transform: uppercase;
-  }
+      margin-bottom: 16px;}
+  
 
   .footer-text {
-      max-width: 264px;
-  }
+      max-width: 264px; }
+ 
 
 
 
