@@ -338,15 +338,15 @@
       background-color: #4D5AE5;
       font-weight: 500;
       line-height: 1.5;
-      letter-spacing: 0.04em;
-  }
+      letter-spacing: 0.04em;}
+  
 
   button:hover,
   button:focus {
       color: #404BBF;
       color: #FFFFFF;
-      background-color: #404BBF;
-  }
+      background-color: #404BBF;}
+  
 
   /*Section2*/
   .name-text {
@@ -355,8 +355,8 @@
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
-      letter-spacing: 0.02em;
-  }
+      letter-spacing: 0.02em; }
+ 
 
   .title-text {
       color: #434455;
@@ -364,19 +364,19 @@
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
-      letter-spacing: 0.02em;
-  }
+      letter-spacing: 0.02em;}
+  
 
   .section-two {
-      background-color: #FFF;
-  }
+      background-color: #FFF; }
+ 
 
 
 
   /*section 3*/
   .section-team {
-      background-color: #F4F4FD;
-  }
+      background-color: #F4F4FD; }
+ 
 
   .betman {
       color: #2E2F42;
@@ -388,12 +388,12 @@
       line-height: 1.11;
       /* 111.111% */
       letter-spacing: 0.02em;
-      text-transform: capitalize;
-  }
+      text-transform: capitalize;}
+  
 
   .ipg-team {
-      background-color: #FFF;
-  }
+      background-color: #FFF;}
+  
 
   .mark {
       color: #2E2F42;
@@ -403,8 +403,8 @@
       ;
       font-weight: 500;
       line-height: 1.2;
-      letter-spacing: 0.02em;
-  }
+      letter-spacing: 0.02em;}
+  
 
   .product {
       color: #434455;
@@ -413,21 +413,21 @@
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
-      letter-spacing: 0.02em;
-  }
+      letter-spacing: 0.02em;}
+  
 
 
 
   /*Section-four*/
 
   .four-section {
-      background-color: #FFF;
-  }
+      background-color: #FFF;}
+  
 
   .jpg-photo {
       border: #E7E9FC;
-      background-color: #FFF;
-  }
+      background-color: #FFF; }
+ 
 
   .text-portfolio {
       color: #2E2F42;
@@ -437,8 +437,8 @@
       font-weight: 700;
       line-height: 1.11;
       letter-spacing: 0.02em;
-      text-transform: capitalize;
-  }
+      text-transform: capitalize; }
+ 
 
   .banking {
       color: #2E2F42;
