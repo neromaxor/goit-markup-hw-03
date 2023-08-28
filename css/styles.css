@@ -213,11 +213,7 @@
       padding: 100px 0;}
   
 
-  .footer-content {
-      /* дів Клас контейнер*/
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;}
+  
   
 
   .lebs {
